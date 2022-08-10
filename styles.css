@@ -1,0 +1,39 @@
+* {
+  font-size: 25px;
+  color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header, nav, main, aside, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #fff 1px solid;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background: yellow;
+}
+nav {
+  width: 100%;
+  height: 75px;
+  background: red;
+}
+main {
+  width: 70%;
+  height: 350px;
+  background: green;
+}
+aside {
+  width: 30%;
+  height: 350px;
+  background: grey;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background: orange;
+}
